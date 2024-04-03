@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import aboutUsBg from "../../../public/aboutUsBg.jpg";
 
 const About = () => {
   return (
@@ -34,54 +32,56 @@ const About = () => {
 
       <h1 className="text-4xl font-bold mb-4">Company Profile</h1>
       <table>
-        <tr>
-          <td>
-            <strong>Nature of Business:</strong>
-          </td>
-          <td>Manufacturer</td>
-        </tr>
-        <tr>
-          <td>
-            <strong>Company CEO:</strong>
-          </td>
-          <td>Atul Patel</td>
-        </tr>
-        <tr>
-          <td>
-            <strong>Total Number of Employees:</strong>
-          </td>
-          <td>Up to 10 People</td>
-        </tr>
-        <tr>
-          <td>
-            <strong>Year of Establishment:</strong>
-          </td>
-          <td>2017</td>
-        </tr>
-        <tr>
-          <td>
-            <strong>Legal Status of Firm:</strong>
-          </td>
-          <td>Individual - Proprietor</td>
-        </tr>
-        <tr>
-          <td>
-            <strong>GST Number:</strong>
-          </td>
-          <td>24ECCPP9827C1ZJ</td>
-        </tr>
-        <tr>
-          <td>
-            <strong>Payment Mode:</strong>
-          </td>
-          <td>Cash, Cheque, DD</td>
-        </tr>
-        <tr>
-          <td>
-            <strong>Shipment Mode:</strong>
-          </td>
-          <td>By Road</td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>
+              <strong>Nature of Business:</strong>
+            </td>
+            <td>Manufacturer</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Company CEO:</strong>
+            </td>
+            <td>Atul Patel</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Total Number of Employees:</strong>
+            </td>
+            <td>Up to 10 People</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Year of Establishment:</strong>
+            </td>
+            <td>2017</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Legal Status of Firm:</strong>
+            </td>
+            <td>Individual - Proprietor</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>GST Number:</strong>
+            </td>
+            <td>24ECCPP9827C1ZJ</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Payment Mode:</strong>
+            </td>
+            <td>Cash, Cheque, DD</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Shipment Mode:</strong>
+            </td>
+            <td>By Road</td>
+          </tr>
+        </tbody>
       </table>
       <br />
 

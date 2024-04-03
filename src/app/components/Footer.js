@@ -10,6 +10,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -32,43 +33,29 @@ const Footer = () => {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-2">Products</h6>
               <p>
-                <a href="#!" className="text-reset">
-                  Children Rides
-                </a>
+                <Link href="../products/children">Children Rides</Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Family Rides
-                </a>
+                <Link href="../products/family">Family Rides</Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Adult Rides
-                </a>
+                <Link href="../products/adult">Adult Rides</Link>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-2">Links</h6>
               <p>
-                <a href="#!" className="text-reset">
-                  Home
-                </a>
+                <Link href="/">Home</Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  About Us
-                </a>
+                <Link href="../about-us">About Us</Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Services
-                </a>
+                <Link href="../services">Services</Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Photo Gallery
-                </a>
+                <Link href="../photo-gallery">Photo Gallery</Link>
               </p>
             </MDBCol>
 
@@ -92,9 +79,12 @@ const Footer = () => {
               </p>
               <p>
                 <MDBIcon fab icon="facebook-f" className="me-3" />
-                <a href="https://www.facebook.com/shreeprayoshaenterprise/">
+                <Link
+                  href="https://www.facebook.com/shreeprayoshaenterprise/"
+                  target="_blank"
+                >
                   shreeprayoshaenterprise
-                </a>
+                </Link>
               </p>
             </MDBCol>
           </MDBRow>
@@ -103,9 +93,13 @@ const Footer = () => {
 
       <div className="text-center p-4">
         © 2024 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+        <Link
+          className="text-reset fw-bold"
+          href="https://www.facebook.com/shreeprayoshaenterprise/"
+          target="_blank"
+        >
           Shree Prayosha Enterprise
-        </a>
+        </Link>
       </div>
     </MDBFooter>
   );
