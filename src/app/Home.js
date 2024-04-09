@@ -7,8 +7,8 @@ import aboutUsBg from "../../public/aboutUsBg.jpg";
 import SuperJet from "../../public/family/SuperJet.png";
 import MerryGoRound from "../../public/family/MerryGoRound.png";
 import DragonCoaster from "../../public/family/DragonCoaster.png";
-import ToraTora from "../../public/adult/ToraTora.png"
-import BreakDance from "../../public/adult/BreakDance.png"
+import ToraTora from "../../public/adult/ToraTora.png";
+import BreakDance from "../../public/adult/BreakDance.png";
 import FlumeCoaster from "../../public/adult/FlumeCoaster.png";
 import MusicalBob from "../../public/adult/MusicalBob.png";
 
@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div>
       <div className="mb-5">
-        <Image src={aboutUsBg} className="w-full" />
+        <Image src={aboutUsBg} alt="bgImage" className="w-full" />
       </div>
       <div className="flex justify-center items-center mb-5">
         <Carousel
@@ -97,7 +97,7 @@ const Home = () => {
           products and services that exceed expectations, setting new standards
           of excellence in the amusement park industry. Central to our mission
           is a relentless commitment to customer satisfaction. We believe in not
-          just meeting but surpassing our clients' expectations by understanding
+          just meeting but surpassing our clients expectations by understanding
           their unique needs and delivering tailored solutions with unmatched
           quality and reliability. Our dedication to customer satisfaction
           permeates every aspect of our operations, driving us to continuously
