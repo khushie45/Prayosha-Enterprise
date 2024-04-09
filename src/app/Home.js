@@ -18,7 +18,7 @@ const Home = () => {
       <div className="md:mb-5">
         <Image src={aboutUsBg} className="w-full" alt="bgImage" />
       </div>
-      <div className="flex justify-center items-center m-2">
+      <div className="flex justify-center items-center m-2 md:m-0 md:my-8">
         <Carousel
           showArrows={true}
           showThumbs={false}
@@ -81,7 +81,7 @@ const Home = () => {
           </div>
         </Carousel>
       </div>
-      <div className="mx-2 my-2 text-base md:mx-8 md:my-4 md:text-xl">
+      <div className="mx-4 my-2 text-base md:mx-8 md:my-4 md:text-xl">
         <h1 className="text-2xl md:text-5xl font-bold mb-2 md:mb-4">Why Us?</h1>
         <p className="md:mx-2">
           At Shree Prayosha Enterprise, we pride ourselves on offering a
@@ -117,7 +117,7 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <div className="mx-2 my-2 text-base md:mx-8 md:my-4 md:text-xl">
+      <div className="mx-4 my-2 text-base md:mx-8 md:my-4 md:text-xl">
         <h1 className="text-2xl md:text-5xl font-bold mb-1 md:mb-4">
           Our Mission
         </h1>

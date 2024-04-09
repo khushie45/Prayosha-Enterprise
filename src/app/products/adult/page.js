@@ -13,7 +13,7 @@ import ZayclonRollerCoaster from "../../../../public/adult/ZayclonRollerCoaster.
 
 const Adult = () => {
   return (
-    <div className="mx-2 my-2 text-base md:mx-8 md:my-4 md:text-xl">
+    <div className="mx-4 my-2 text-base md:mx-8 md:my-4 md:text-xl">
       <h1 className="text-2xl md:text-5xl font-bold mb-1 md:mb-4">Adult Rides</h1>
 
       <div className="mb-4 md:mb-6">

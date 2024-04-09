@@ -1,4 +1,99 @@
-"use client";
+import React from "react";
+import Link from "next/link";
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#77AFD6] text-[#231d67] mt-4">
+      <div className="container mx-auto py-8 px-4 lg:px-0">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="col-span-1">
+            <h6 className="text-xl font-bold mb-2">
+              <i className="fas fa-gem mr-2"></i>
+              Shree Prayosha Enterprise
+            </h6>
+            <p>
+              Connect with us today to explore our premium-quality amusement
+              park rides and installation services tailored to your specific
+              requirements.
+            </p>
+          </div>
+
+          <div className="col-span-1">
+            <h6 className="text-xl font-bold mb-2">Products</h6>
+            <p>
+              <Link href="../products/children">Children Rides</Link>
+            </p>
+            <p>
+              <Link href="../products/family">Family Rides</Link>
+            </p>
+            <p>
+              <Link href="../products/adult">Adult Rides</Link>
+            </p>
+          </div>
+
+          <div className="col-span-1">
+            <h6 className="text-xl font-bold mb-2">Links</h6>
+            <p>
+              <Link href="/">Home</Link>
+            </p>
+            <p>
+              <Link href="../about-us">About Us</Link>
+            </p>
+            <p>
+              <Link href="../services">Services</Link>
+            </p>
+          </div>
+
+          <div className="col-span-1">
+            <h6 className="text-xl font-bold mb-2">Contact</h6>
+            <p>
+              <i className="fas fa-home mr-3"></i>
+              Anand, Gujarat - 388001
+            </p>
+            <p>
+              <i className="fas fa-envelope mr-3"></i>
+              shreeprayosha@gmail.com
+            </p>
+            <p>
+              <i className="fas fa-phone mr-3"></i>
+              +91 9824444189
+            </p>
+            <p>
+              <i className="fas fa-phone mr-3"></i>
+              +91 9054470072
+            </p>
+            <p>
+              <i className="fab fa-facebook-f mr-3"></i>
+              <Link
+                href="https://www.facebook.com/shreeprayoshaenterprise/"
+                target="_blank"
+              >
+                shreeprayoshaenterprise
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="text-center py-4">
+        <p className="text-lg">© 2024 Copyright: Shree Prayosha Enterprise</p>
+        <p>
+          <Link
+            className="text-[#231d67] font-bold"
+            href="https://shree-prayosha-enterprise.netlify.app/"
+            target="_blank"
+          >
+            Shree Prayosha Enterprise
+          </Link>
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+
+/* "use client";
 
 import React from "react";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
@@ -54,9 +149,9 @@ const Footer = () => {
               <p>
                 <Link href="../services">Services</Link>
               </p>
-{/*               <p>
+              <p>
                 <Link href="../photo-gallery">Photo Gallery</Link>
-              </p> */}
+              </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
@@ -106,3 +201,4 @@ const Footer = () => {
 };
 
 export default Footer;
+ */

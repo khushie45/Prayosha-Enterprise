@@ -29,6 +29,7 @@ const Navbar = () => {
           <Link
             className="p-2 mr-2 hover:bg-[#D8DDE2] hover:text-[#231D67] hover:rounded font-semibold block md:inline-block"
             href="/"
+            onClick={() => setIsMenuOpen(false)}
           >
             Home
           </Link>
@@ -36,6 +37,7 @@ const Navbar = () => {
           <Link
             className="p-2 mr-2 hover:bg-[#D8DDE2] hover:text-[#231D67] hover:rounded font-semibold block md:inline-block"
             href="../about-us"
+            onClick={() => setIsMenuOpen(false)}
           >
             About
           </Link>
@@ -51,18 +53,21 @@ const Navbar = () => {
                 <Link
                   className="pl-3 md:px-4 pb-2 pt-2 hover:text-[#231D67] hover:font-extrabold"
                   href="../products/children"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   Children Rides
                 </Link>
                 <Link
                   className="pl-3 md:px-4 pb-2 hover:text-[#231D67] hover:font-extrabold"
                   href="../products/family"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   Family Rides
                 </Link>
                 <Link
                   className="pl-3 md:px-4 pb-2 hover:text-[#231D67] hover:font-extrabold"
                   href="../products/adult"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   Adult Rides
                 </Link>
@@ -73,6 +78,7 @@ const Navbar = () => {
           <Link
             className="p-2 mr-2 hover:bg-[#D8DDE2] hover:text-[#231D67] hover:rounded font-semibold block md:inline-block"
             href="../services"
+            onClick={() => setIsMenuOpen(false)}
           >
             Services
           </Link>
@@ -80,6 +86,7 @@ const Navbar = () => {
           <Link
             className="p-2 mr-2 hover:bg-[#D8DDE2] hover:text-[#231D67] hover:rounded font-semibold block md:inline-block"
             href="../contact-us"
+            onClick={() => setIsMenuOpen(false)}
           >
             Contact Us
           </Link>
