@@ -54,9 +54,9 @@ const Footer = () => {
               <p>
                 <Link href="../services">Services</Link>
               </p>
-              <p>
+{/*               <p>
                 <Link href="../photo-gallery">Photo Gallery</Link>
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
