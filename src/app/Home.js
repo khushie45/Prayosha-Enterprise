@@ -3,12 +3,14 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
-import DiscoCoaster from "../../public/DiscoCoaster.jpg";
-import WaterRide from "../../public/WaterRide.jpg";
-import Train from "../../public/Train.jpg";
-import Octopus from "../../public/Octopus.jpg";
-import DragonCoaster from "../../public/DragonCoaster.jpg";
 import aboutUsBg from "../../public/aboutUsBg.jpg";
+import SuperJet from "../../public/family/SuperJet.png";
+import MerryGoRound from "../../public/family/MerryGoRound.png";
+import DragonCoaster from "../../public/family/DragonCoaster.png";
+import ToraTora from "../../public/adult/ToraTora.png"
+import BreakDance from "../../public/adult/BreakDance.png"
+import FlumeCoaster from "../../public/adult/FlumeCoaster.png";
+import MusicalBob from "../../public/adult/MusicalBob.png";
 
 const Home = () => {
   return (
@@ -30,19 +32,25 @@ const Home = () => {
           className="h-[500px]"
         >
           <div>
-            <Image src={WaterRide} alt="Ride" className="h-[500px]" />
+            <Image src={SuperJet} alt="Ride" className="h-[500px]" />
           </div>
           <div>
-            <Image src={Train} alt="Ride" className="h-[500px]" />
+            <Image src={MerryGoRound} alt="Ride" className="h-[500px]" />
           </div>
           <div>
             <Image src={DragonCoaster} alt="Ride" className="h-[500px]" />
           </div>
           <div>
-            <Image src={Octopus} alt="Ride" className="h-[500px]" />
+            <Image src={ToraTora} alt="Ride" className="h-[500px]" />
           </div>
           <div>
-            <Image src={DiscoCoaster} alt="Ride" className="h-[500px]" />
+            <Image src={BreakDance} alt="Ride" className="h-[500px]" />
+          </div>
+          <div>
+            <Image src={FlumeCoaster} alt="Ride" className="h-[500px]" />
+          </div>
+          <div>
+            <Image src={MusicalBob} alt="Ride" className="h-[500px]" />
           </div>
         </Carousel>
       </div>

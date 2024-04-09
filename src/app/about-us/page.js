@@ -49,7 +49,7 @@ const About = () => {
             <td>
               <strong>Total Number of Employees:</strong>
             </td>
-            <td>Up to 10 People</td>
+            <td>Up to 20 People</td>
           </tr>
           <tr>
             <td>
