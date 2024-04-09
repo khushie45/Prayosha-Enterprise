@@ -95,7 +95,7 @@ const Footer = () => {
         © 2024 Copyright:
         <Link
           className="text-reset fw-bold"
-          href="https://www.facebook.com/shreeprayoshaenterprise/"
+          href="https://shree-prayosha-enterprise.netlify.app/"
           target="_blank"
         >
           Shree Prayosha Enterprise

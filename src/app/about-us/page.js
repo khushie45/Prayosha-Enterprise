@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mx-8 my-4 text-xl">
-      <h1 className="text-5xl font-bold mb-4">About Us</h1>
+    <div className="mx-2 my-2 text-base md:mx-8 md:my-4 md:text-xl">
+      <h1 className="text-2xl md:text-5xl font-bold mb-1 md:mb-4">About Us</h1>
       <p>
         Established in 2017 as a distinguished Sole Proprietorship firm in
         Anand, Gujarat, <strong>Shree Prayosha Enterprise</strong> stands as a
@@ -14,9 +14,9 @@ const About = () => {
       </p>
       <br />
 
-      <h1 className="text-4xl font-bold mb-4">Key Highlights</h1>
-      <ul>
-        <li>
+      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">Key Highlights</h1>
+      <ul className="list-disc mx-4 md:mx-8 md:my-4">
+        <li className="mb-2">
           <strong>Robust Products:</strong> Our products are known for their
           robust construction, high strength, and low maintenance requirements,
           making them a preferred choice among our clients.
@@ -30,7 +30,7 @@ const About = () => {
       </ul>
       <br />
 
-      <h1 className="text-4xl font-bold mb-4">Company Profile</h1>
+      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">Company Profile</h1>
       <table>
         <tbody>
           <tr>
@@ -85,7 +85,7 @@ const About = () => {
       </table>
       <br />
 
-      <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
+      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">Get in Touch</h1>
       <p>
         Experience the excellence of Shree Prayosha Enterprise! Contact us today
         for premium-quality amusement park rides and installation services

@@ -13,14 +13,14 @@ import ZayclonRollerCoaster from "../../../../public/adult/ZayclonRollerCoaster.
 
 const Adult = () => {
   return (
-    <div className="mx-8 my-6 text-xl">
-      <h1 className="text-5xl font-bold mb-4">Adult Rides</h1>
+    <div className="mx-2 my-2 text-base md:mx-8 md:my-4 md:text-xl">
+      <h1 className="text-2xl md:text-5xl font-bold mb-1 md:mb-4">Adult Rides</h1>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">TORA TORA</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">TORA TORA</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>40 Person Adults</div>
 
@@ -63,11 +63,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">FEES BEE</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">FEES BEE</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>20 Person Adults</div>
 
@@ -110,11 +110,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">BREAK DANCE</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">BREAK DANCE</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>32 Person Adults</div>
 
@@ -157,11 +157,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">Flume Coaster</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">Flume Coaster</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>12 Person Adults</div>
 
@@ -204,11 +204,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">SPINING COASTER</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">SPINING COASTER</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>16 Person Adults</div>
 
@@ -251,11 +251,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">FREEFALL</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">FREEFALL</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>16 Person Adults</div>
 
@@ -298,11 +298,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">RANGER</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">RANGER</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>32 Person Adults</div>
 
@@ -345,11 +345,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">MUSICAL BOB</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">MUSICAL BOB</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>40 Person Adults</div>
 
@@ -392,11 +392,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">ZAYCLON ROLLER COASTER</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">ZAYCLON ROLLER COASTER</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>12 Person Adults</div>
 
@@ -439,11 +439,11 @@ const Adult = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">SWING CHAIR</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">SWING CHAIR</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>24 Person Adults</div>
 

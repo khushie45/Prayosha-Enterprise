@@ -12,14 +12,16 @@ import SuperJet from "../../../../public/family/SuperJet.png";
 
 const Family = () => {
   return (
-    <div className="mx-8 my-6 text-xl">
-      <h1 className="text-5xl font-bold mb-4">Family Rides</h1>
+    <div className="mx-2 my-2 text-base md:mx-8 md:my-4 md:text-xl">
+      <h1 className="text-2xl md:text-5xl font-bold mb-1 md:mb-4">
+        Family Rides
+      </h1>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">SUPER JET</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">SUPER JET</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>24 Person All Age</div>
 
@@ -62,11 +64,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">MERRY GO ROUND</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">MERRY GO ROUND</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>20 Person All Age</div>
 
@@ -109,11 +111,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">ST. CAR</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">ST. CAR</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>20 Person All Age</div>
 
@@ -156,11 +158,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">COLUMBUS</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">COLUMBUS</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>20 Person All Age</div>
 
@@ -203,11 +205,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">REVOLVING TOWER</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">REVOLVING TOWER</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>16 Person All Age</div>
 
@@ -250,11 +252,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">JUMPING FROG</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">JUMPING FROG</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>20 Person All Age</div>
 
@@ -297,11 +299,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">FAMILY TRAIN</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">FAMILY TRAIN</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>20 Person All Age</div>
 
@@ -344,11 +346,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">MONO RAIL</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">MONO RAIL</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>16 Person All Age</div>
 
@@ -391,11 +393,11 @@ const Family = () => {
         </div>
       </div>
 
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-2">DRAGON COASTER</h1>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-          <div className="table-container bg-white rounded-lg shadow-md p-6">
-            <div className="grid grid-cols-2 gap-3">
+      <div className="mb-4 md:mb-6">
+        <h1 className="text-lg md:text-3xl font-bold mb-2">DRAGON COASTER</h1>
+        <div className="grid gap-3 md:gap-8 grid-cols-1 md:grid-cols-2">
+          <div className="table-container bg-white rounded-lg shadow-md p-2 md:p-6">
+            <div className="grid grid-cols-2 gap-2 md:gap-3">
               <div className="font-bold">Setting Capacity</div>
               <div>16 Person All Age</div>
 
