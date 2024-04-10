@@ -14,7 +14,9 @@ const About = () => {
       </p>
       <br />
 
-      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">Key Highlights</h1>
+      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">
+        Key Highlights
+      </h1>
       <ul className="list-disc mx-4 md:mx-8 md:my-4">
         <li className="mb-2">
           <strong>Robust Products:</strong> Our products are known for their
@@ -22,15 +24,16 @@ const About = () => {
           making them a preferred choice among our clients.
         </li>
         <li>
-          <strong>Experienced Leadership:</strong> Under the visionary
-          leadership of <strong>Mr. Atul Patel</strong>, our Owner, we have
-          achieved a noteworthy position in the market, driven by innovation,
-          integrity, and dedication.
+          <strong>Experienced Leadership:</strong> With over 25 years of
+          experience in the industry, we have achieved a noteworthy position in
+          the market, driven by innovation, integrity, and dedication.
         </li>
       </ul>
       <br />
 
-      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">Company Profile</h1>
+      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">
+        Company Profile
+      </h1>
       <table>
         <tbody>
           <tr>
@@ -73,7 +76,7 @@ const About = () => {
             <td>
               <strong>Payment Mode:</strong>
             </td>
-            <td>Cash, Cheque, DD</td>
+            <td>Cheque, DD</td>
           </tr>
           <tr>
             <td>
@@ -85,7 +88,9 @@ const About = () => {
       </table>
       <br />
 
-      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">Get in Touch</h1>
+      <h1 className="text-xl md:text-4xl font-bold mb-1 md:mb-4">
+        Get in Touch
+      </h1>
       <p>
         Experience the excellence of Shree Prayosha Enterprise! Contact us today
         for premium-quality amusement park rides and installation services
