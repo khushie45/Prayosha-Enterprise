@@ -29,7 +29,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="w-full mt-5 md:mt-0 md:w-5/12 md:mt-4 lg:w-2/12 lg:mt-0 flex flex-col items-center md:items-start">
+        <div className="w-full mt-5 md:w-5/12 md:mt-4 lg:w-2/12 lg:mt-0 flex flex-col items-center md:items-start">
           <p className="text-uppercase font-bold mb-2">Links</p>
           <Link className="hover:underline" href="/">
             Home
@@ -42,7 +42,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="w-full mt-5 md:mt-0 md:w-5/12 md:mt-4 lg:w-3/12 lg:mt-0 flex flex-col items-center md:items-start">
+        <div className="w-full mt-5 md:w-5/12 md:mt-4 lg:w-3/12 lg:mt-0 flex flex-col items-center md:items-start">
           <p className="text-uppercase font-bold mb-2">Contact</p>
           <p className="flex justify-center items-center">
             <AiFillHome size={20} className="mr-3" /> Anand, Gujarat - 388001
