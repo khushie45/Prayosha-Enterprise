@@ -7,7 +7,7 @@ import { RiFacebookFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className="bottom-0 text-center bg-[#77AFD6] text-[#231d67]">
+    <footer className="text-center bg-[#77AFD6] text-[#231d67]">
       <section className="container md:px-6 lg:px-0 py-6 flex items-center md:items-start justify-center flex-wrap">
         <div className="w-full md:w-5/12 lg:w-3/12 flex flex-col items-center md:items-start">
           <p className="text-uppercase font-bold mb-2">
